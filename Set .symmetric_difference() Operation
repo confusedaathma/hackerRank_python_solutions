@@ -1,0 +1,6 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+total=int(input())
+aset=set(input().split())
+total2=int(input())
+bset=set(input().split())
+print(len(aset.symmetric_difference(bset)))
